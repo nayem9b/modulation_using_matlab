@@ -31,9 +31,12 @@ for i=1:1:(samplingRate*maxTime)
     end
 end
 
+disp(digitalData);
+disp(stairCaseSignal);
 subplot(4,1,2);
 stem(sampleTime, sampledSignal);
 xlabel("Time(sec)");
 ylabel("Sampled Signal");
 grid on;
+hold on;
 disp(sampledSignal);
