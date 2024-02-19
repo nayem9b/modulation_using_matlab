@@ -1,6 +1,3 @@
-clc;
-close all;
-clear all;
 %plotting the modulating signal
 Am = 3;
 fm = 2;

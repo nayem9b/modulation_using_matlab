@@ -1,6 +1,3 @@
-clc;
-close all;
-clear all;
 Am = 3;
 fm = 2;
 phim = 0;
